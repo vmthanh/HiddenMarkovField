@@ -1,0 +1,12 @@
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\bin\Debug\HiddenMarkovModel.exe.config
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\bin\Debug\HiddenMarkovModel.exe
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\bin\Debug\HiddenMarkovModel.pdb
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\bin\Debug\Accord.dll
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\bin\Debug\Accord.Math.dll
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\bin\Debug\Accord.Statistics.dll
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\obj\Debug\HiddenMarkovModel.exe
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\obj\Debug\HiddenMarkovModel.pdb
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\obj\Debug\HiddenMarkovModel.csprojResolveAssemblyReference.cache
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\bin\Debug\Accord.MachineLearning.dll
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\bin\Debug\AForge.dll
+D:\MINHTHANH-APCS\THANH\DAI HOC APCS\YEAR IV 2015 - 2016\THESIS\VISION\HiddenMarkovModel\HiddenMarkovModel\bin\Debug\AForge.Math.dll
