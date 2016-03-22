@@ -15,6 +15,7 @@ namespace HiddenMarkovModel
     class MarkovModel
     {
         private HiddenMarkovClassifier<MultivariateNormalDistribution> hmm;
+        //Activity name
         private Dictionary<string, int> ActivityIndex = new Dictionary<string, int>()
         {
             {"rinsing mouth with water",0},
@@ -31,13 +32,16 @@ namespace HiddenMarkovModel
             {"working on computer",11}
         };
         private int NumberOfActivity = 12;
-
-
-        private int NumberOfFeature =2;
+        //private int NumberOfFeature =2;
         private int[][] input { get; set; }
         private int[] output { get; set; }
         public MarkovModel()
         {
+            /*Initialize data
+             * Read the Folder and get the data form each file
+             * Each file begin with the Name of Activity and then the number of data point
+             * In those next line, each line is a number of each data point
+             * */
             DirectoryInfo d = new DirectoryInfo("GMMFile");
             FileInfo[] files = d.GetFiles("*.txt");
             input = new int[files.Count()][];
@@ -70,6 +74,13 @@ namespace HiddenMarkovModel
         }
         public void Run()
         {
+            /*Initialize the model
+             * Read more tut on Code project for better understanding
+             * http://www.codeproject.com/Articles/541428/Sequence-Classifiers-in-Csharp-Part-I-Hidden-Marko?msg=5219822#xx5219822xx
+             * states is parameters for running forward algo
+             * intteration is parameters for iterations
+             * tolerance is parameters for threshold
+             * */
             int states = 3;
             int iterations = 0;
             double tolerance = 0.01;
@@ -77,7 +88,7 @@ namespace HiddenMarkovModel
             string[] classes = ActivityIndex.Keys.ToArray();
            
             hmm = new HiddenMarkovClassifier<MultivariateNormalDistribution>(classes.Length,
-               new Forward(states), new MultivariateNormalDistribution(NumberOfFeature), classes);
+               new Forward(states), new MultivariateNormalDistribution(5), classes);
             // Create the learning algorithm for the ensemble classifier
             var teacher = new HiddenMarkovClassifierLearning<MultivariateNormalDistribution>(hmm,
 
